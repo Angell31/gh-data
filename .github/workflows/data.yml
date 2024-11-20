@@ -30,4 +30,4 @@ jobs:
       runs_on: ubuntu-latest
       steps:
         - name: Deploy
-          uses: echo "Deployment..."
+          run: echo "Deployment..."
