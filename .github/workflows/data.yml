@@ -29,5 +29,5 @@ jobs:
       needs: build
       runs-on: ubuntu-latest
       steps:
-        - name: Deploy
+        - name: Deploy the app
           run: echo "Deployment..."
